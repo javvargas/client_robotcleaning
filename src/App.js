@@ -9,7 +9,7 @@ const socket = io.connect('https://avidbotsapp.herokuapp.com/');
 
 function App() {
 
-  const iniMap = '####################\n#             ## # #\n# # ## #####   # # #\n# # ## #####  ## # #\n# #            #   #\n# # ########  #### #\n# #              # #\n# # ########  ## # #\n#                # #\n####################';
+  const iniMap = '####################\n#             ## # #\n# # ## #####   # # #\n# # ## #####  ## # #\n# #            #   #\n# # ########  #### #\n# #                #\n# # ########  ## # #\n#                # #\n####################';
 
   const [rawMap, setMap] = useState(iniMap); 
   const [setup, setSetup] = useState([]); 
