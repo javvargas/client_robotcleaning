@@ -110,7 +110,7 @@ function Map({socket, setup}) {
               ) : (
                 <div className="font-bold text-green-700 h-10">
                   {!showFinish ? (
-                    <div>Cleanning...</div>
+                    <div>Cleaning...</div>
                   ) : (
                     <div className="text-3xl">Task Completed!!!</div>
                   )}
